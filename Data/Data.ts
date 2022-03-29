@@ -17,30 +17,18 @@ export const services: Service[] = [
     Icon: FaServer,
     title: "Backend  Development",
     about:
-      "handle database, server, api using <b>Express </b> & other popular frameworks",
+      "handle database, server, api using <b>Express, Nest.js </b> & other popular frameworks",
   },
   {
     Icon: AiOutlineApi,
     title: "API Development",
     about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
+      "I can develop robust  REST API using  <b>Node API</b> & <b>django-rest-api</b>  ",
   },
   {
     Icon: MdDeveloperMode,
     title: "Competitive Coder",
-    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
-  },
-  {
-    Icon: AiOutlineAntDesign,
-    title: "UI/UX designer",
-    about:
-      "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
-  },
-  {
-    Icon: RiComputerLine,
-    title: "Whatever",
-    about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
+    about: "problem solver in <b>HackerRank</b> ",
   },
 ];
 
@@ -48,68 +36,73 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "Python",
-    level: "45",
+    level: "80",
   },
   {
     Icon: BsCircleFill,
     name: "Java Script",
-    level: "60",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "React Native",
     level: "80",
   },
   {
     Icon: BsCircleFill,
     name: "React",
+    level: "60",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Node.js",
     level: "70",
   },
   {
     Icon: BsCircleFill,
     name: "Django",
-    level: "80",
+    level: "30",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "MySql",
+    level: "70",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "MongoDB",
+    level: "70",
   },
   {
     Icon: BsCircleFill,
     name: "Bootstrap",
-    level: "80",
+    level: "70",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "CSS",
+    level: "70",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "HTML",
+    level: "70",
   },
 ];
 
 export const tools: Skill[] = [
   {
     Icon: BsCircleFill,
-    name: "Figma",
-    level: "85",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Photoshop",
-    level: "45",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Illustrator",
-    level: "60",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Framer",
-    level: "45",
+    name: "VS.Code",
+    level: "80",
   },
 ];
 
 export const projects: IProject[] = [
   { 
-    name: "COVID Tracker",
+    name: "PortFolio",
     description:
-      "This app shows a statistical view about corona virus over the world",
-    image_path: "/images/covid.jpg",
-    deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-    github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
+      "This application is a portfolio website for my personal projects",
+    image_path: "/images/sabri-tuzcu-wunVFNvqhfE-unsplash.jpg",
+    deployed_url: "",
+    github_url: "https://github.com/Rajugopal1/portfolio",
     category: ["react"],
-    key_techs: ["React", "Chart.js", "Material UI"],
+    key_techs: ["React", "TailwindCSs","framer-motion"],
   },
  
 ];

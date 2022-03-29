@@ -19,15 +19,15 @@ const SideBar = () => {
                 gopal
             </h3>
               <p  className='px-2 py-1 my-3 bg-gray-200 rounded-full'>Web Developer</p>
-              <a href=""  className='flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full' download='name'> 
+              <a href="https://drive.google.com/file/d/18W4kRpubuGf6jAoj3iLmn12CCsYCF3uo/view?usp=sharing"  className='flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full' download='name'> 
               <GiTie className='w-6 h-6'/>Download Resume</a>
               
               {/* {social icons} */}
-              <div className='flex justify-around my-5 text-green-500'>
-                  <a href="">
+              <div className='flex justify-around my-5 text-green-500 '>
+                  <a href="https://github.com/Rajugopal1">
                       <AiFillGithub className= 'w-6 h-8 cursor-pointer'/>
                   </a>
-                  <a href="">
+                  <a href="https://www.linkedin.com/in/raju-gopal-singh-hari-425656212/">
                       <AiFillLinkedin className= 'w-6 h-8 cursor-pointer'/>
                   </a>
                    <a href="">
@@ -36,19 +36,18 @@ const SideBar = () => {
               </div>
 
               {/* {address} */}
-              <div className='py-4 my-5 bg-gray-200' 
+              <div className='py-4 my-5 bg-gray-200 rounded-lg' 
               style = {{marginLeft:'-1rem',marginRight:'-1rem' }}>
                   <div className= 'flex items-center justify-center space-x-2'> 
                   <GoLocation/>
-                      <span> hybd,India</span>
+                      <span>Nellore, Andhra Pradesh, India</span>
                   </div>
-                  <p className='my-2'>raju@gmail.com</p>
+                  <p className='my-2'>rajugopalsinghh@gmail.com</p>
                   <p className='my-2'>7093134158</p>
               </div>
-              <button className = 'w-8/12 px-2 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green-400 to-blue-400 focus:outline-none' 
-              onClick={()=> window.open('mailto:rajugopalsinghh@gmail.com')}>Emsil me</button>
-              <button 
-              className = 'w-8/12 px-2 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green-400 to-blue-400'>Toggle</button>
+              <button className = 'w-8/12 px-2 py-2 my-2 text-white bg-green-400 rounded-full focus:outline-none' 
+              onClick={()=> window.open('mailto:rajugopalsinghh@gmail.com')}>Email me</button>
+              {/* <button className = 'w-8/12 px-2 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green-400 to-green-300'>Toggle</button> */}
         </div>
     )
 }
