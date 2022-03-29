@@ -7,7 +7,8 @@ import {
 } from "next";
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../Data/Data";
-import { Service } from "../Data/Type";
+import { stagger, fadeUp } from "../animations";
+import { motion } from "framer-motion";
 
 const About: NextPage = () => {
   // console.log(services);
@@ -28,17 +29,18 @@ const About: NextPage = () => {
           My Techonoligies
         </h4>
 
-        <div className="grid gap-6 my-3 md:grid-cols-2">
+        <motion.div className="grid gap-6 my-3 md:grid-cols-2" variants={stagger} initial='initial' animate='animate'>
           {/* children's initial and animate property should be same as the parent during a stagger effect  */}
           {services.map((service) => (
-            <div
+            <motion.div
+            variants={fadeUp}
               className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1 "
               key={service.title}
             >
               <ServiceCard service={service} />
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </div>
   );

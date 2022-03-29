@@ -3,7 +3,7 @@
 
 import { NextApiRequest, NextApiResponse } from 'next'
 import { services } from '../../Data/Data'
-export default (req: NextApiRequest, res: NextApiResponse) => {
+export default function foo(req: NextApiRequest, res: NextApiResponse) {
    //BY default get request
 
    //! complex backend logic :(
