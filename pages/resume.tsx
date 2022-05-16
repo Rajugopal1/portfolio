@@ -26,7 +26,7 @@ const resume = () => {
         <motion.div variants={fadeUp} initial='initial' animate='animate'>
           <h5 className="my-3 text-2xl font-bold">Experience</h5>
           <div className="">
-            <h5 className="my-2 text-xl font-bold">BackEnd Developer Jr.</h5>
+            <h5 className="my-2 text-xl font-bold">MERN Stack Developer </h5>
             <p className="font-semibold">QUIKKIEAPPS</p>
             <p className="my-3">I have an  Experience using  Node.js, Express.js, Nest.js, MongoDB</p>
             {/* <p className="my-3">I dont know why I am doing this job</p> */}
