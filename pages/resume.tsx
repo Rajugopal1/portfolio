@@ -27,8 +27,8 @@ const resume = () => {
           <h5 className="my-3 text-2xl font-bold">Experience</h5>
           <div className="">
             <h5 className="my-2 text-xl font-bold">BackEnd Developer Jr.</h5>
-            <p className="font-semibold">Amoghnya Tech Solutions</p>
-            <p className="my-3">I have relavant 6 months of Experience in Node.js</p>
+            <p className="font-semibold">QUIKKIEAPPS</p>
+            <p className="my-3">I have an  Experience using  Node.js, Express.js, Nest.js, MongoDB</p>
             {/* <p className="my-3">I dont know why I am doing this job</p> */}
           </div>
         </motion.div>

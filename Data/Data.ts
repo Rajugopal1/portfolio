@@ -36,52 +36,52 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "Python",
-    level: "80",
+    level: "85",
   },
   {
     Icon: BsCircleFill,
     name: "Java Script",
-    level: "80",
+    level: "85",
   },
   {
     Icon: BsCircleFill,
     name: "React",
-    level: "60",
+    level: "80",
   },
   {
     Icon: BsCircleFill,
     name: "Node.js",
-    level: "70",
+    level: "80",
   },
   {
     Icon: BsCircleFill,
     name: "Django",
-    level: "30",
+    level: "65",
   },
   {
     Icon: BsCircleFill,
     name: "MySql",
-    level: "70",
+    level: "80",
   },
   {
     Icon: BsCircleFill,
     name: "MongoDB",
-    level: "70",
+    level: "80",
   },
   {
     Icon: BsCircleFill,
     name: "Bootstrap",
-    level: "70",
+    level: "80",
   },
   {
     Icon: BsCircleFill,
     name: "CSS",
-    level: "70",
+    level: "80",
   },
   {
     Icon: BsCircleFill,
     name: "HTML",
-    level: "70",
+    level: "80",
   },
 ];
 
