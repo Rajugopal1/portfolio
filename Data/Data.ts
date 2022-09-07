@@ -94,7 +94,7 @@ export const tools: Skill[] = [
 ];
 
 export const projects: IProject[] = [
-  { 
+  {
     name: "PortFolio",
     description:
       "This application is a portfolio website for my personal projects",
@@ -102,7 +102,33 @@ export const projects: IProject[] = [
     deployed_url: "",
     github_url: "https://github.com/Rajugopal1/portfolio",
     category: ["react"],
-    key_techs: ["React", "TailwindCSs","framer-motion"],
+    key_techs: ["React", "TailwindCSs", "framer-motion"],
   },
- 
+  {
+    name: "Netflix API",
+    description: "This application is a netflix-clone api's",
+    image_path: "/images/2772922.png",
+    deployed_url: "",
+    github_url: "https://github.com/Rajugopal1/netflix-api",
+    category: ["node", "express", "mongo"],
+    key_techs: ["node.js", "express.js", "mongoDB"],
+  },
+  {
+    name: "Netflix UI",
+    description: "This application is a netflix-clone",
+    image_path: "/images/thibault-penin-GrzoKN1aqSg-unsplash.jpg",
+    deployed_url: "",
+    github_url: "https://github.com/Rajugopal1/netflix-api",
+    category: ["react"],
+    key_techs: ["react.js", "SASS", "react-router-dom"],
+  },
+  {
+    name: "Facebook Clone API",
+    description: "This application is a netflix-clone",
+    image_path: "/images/timothy-hales-bennett-OwvRB-M3GwE-unsplash.jpg",
+    deployed_url: "",
+    github_url: "https://github.com/Rajugopal1/facebook-clone",
+    category: ["node", "express", "mongo"],
+    key_techs: ["node.js", "express.js", "mongoDB"],
+  },
 ];
