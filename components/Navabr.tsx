@@ -32,7 +32,7 @@ const NavItem: FunctionComponent<{
        if (pathname === '/') setActive('About')
        else if (pathname === '/projects') setActive('Projects')
        else if (pathname === '/resume') setActive('Resume')
-    }, [])
+    }, [pathname])
     return (
         <div className='flex items-center justify-between px-5 py-3 my-3'>
          <span className='text-xl font-bold text-green-500 border-b-4 border-green-500 md:text-2xl '>

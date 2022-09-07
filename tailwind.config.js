@@ -1,10 +1,10 @@
 module.exports = {
-  purge: ['./pages/**/*.tsx', './components/**/*.tsx'],
-  darkMode: 'class', // or 'media' or 'class'
+  purge: ["./pages/**/*.tsx", "./components/**/*.tsx"],
+  darkMode: "class", // or 'media' or 'class'
   theme: {
     fontFamily: {
-      'kaushan' : ['Kaushan Script'],
-     }
+      kaushan: ["Kaushan Script"],
+    },
   },
   variants: {
     extend: {
@@ -24,4 +24,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};
