@@ -2,8 +2,10 @@ import Bar from '../components/SideBar'
 import Navabr from '../components/Navabr'
 import '../styles/globals.css'
 import { ThemeProvider } from "next-themes";
+import type {AppProps} from 'next/app'
 
-function MyApp({ Component, pageProps }) {
+
+function MyApp({ Component , pageProps}: AppProps) {
    return   (
       <div className= 'grid grid-cols-12 gap-6 px-5 lg:x-48 my-14 sm:px-20 md:px-32' >
 

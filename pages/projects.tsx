@@ -32,11 +32,13 @@ const Projects = () => {
       />
 
       <motion.div className="relative grid grid-cols-12 gap-4 my-3" variants={stagger} initial='initial' animate='animate'>
-        {projects.map((project) => <>
-            <motion.div className="col-span-12 p-2 bg-gray-200 rounded-lg sm:col-span-6 lg:col-span-4 dark:bg-dark-200" variants={fadeUp}>
-            <ProjectCard project={project} key={project.name} />
-          </motion.div>
-          </>)}
+        {projects.map((project,i) => (
+          <>
+          <motion.div className="col-span-12 p-2 bg-gray-200 rounded-lg sm:col-span-6 lg:col-span-4 dark:bg-dark-200" variants={fadeUp} key={i}>
+          <ProjectCard project={project}  />
+        </motion.div>
+        </>
+        ))}
       </motion.div>
     </div>
   );
